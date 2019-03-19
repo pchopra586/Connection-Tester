@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="run tests in parallel" duration-ms="28224" started-at="2019-03-19T02:45:06Z" finished-at="2019-03-19T02:45:34Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCukesTestInWeb.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sph.runners.RunCukesTestInWeb@5e955596]" name="Tests Chrome browser in SeeTest - feature - chrome v:73.0.3683.75 MAC" class="com.sph.runners.RunCukesTestInWeb"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Tests Chrome browser in SeeTest" duration-ms="28224" started-at="2019-03-19T02:45:06Z" finished-at="2019-03-19T02:45:34Z">
+      <class name="com.sph.runners.RunCukesTestInWeb">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.sph.runners.RunCukesTestInWeb@5e955596]" name="setUpClass" is-config="true" duration-ms="136" started-at="2019-03-19T10:45:06Z" finished-at="2019-03-19T10:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sph.runners.RunCukesTestInWeb@5e955596]" name="Tests Chrome browser in SeeTest - feature - chrome v:73.0.3683.75 MAC" duration-ms="27693" started-at="2019-03-19T10:45:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-19T10:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Launch Connection Tester Website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests Chrome browser in SeeTest - feature - chrome v:73.0.3683.75 MAC -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.sph.runners.RunCukesTestInWeb@5e955596]" name="tearDownClass" is-config="true" duration-ms="245" started-at="2019-03-19T10:45:34Z" finished-at="2019-03-19T10:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sph.runners.RunCukesTestInWeb -->
+    </test> <!-- Tests Chrome browser in SeeTest -->
+  </suite> <!-- run tests in parallel -->
+</testng-results>

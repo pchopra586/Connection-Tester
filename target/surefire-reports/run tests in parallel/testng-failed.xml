@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" verbose="0" name="Failed suite [run tests in parallel]" parallel="tests">
+  <parameter name="browserName" value="chromelocal"/>
+  <listeners>
+    <listener class-name="com.sph.driverFactory.LocalWebDriverListener"/>
+  </listeners>
+  <test name="Tests Chrome browser in SeeTest(failed)" parallel="tests">
+    <parameter name="browserName" value="chromelocal"/>
+    <classes>
+      <class name="com.sph.runners.RunCukesTestInWeb">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+        </methods>
+      </class> <!-- com.sph.runners.RunCukesTestInWeb -->
+    </classes>
+  </test> <!-- Tests Chrome browser in SeeTest(failed) -->
+</suite> <!-- Failed suite [run tests in parallel] -->

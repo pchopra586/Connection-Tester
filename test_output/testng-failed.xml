@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.sph.runners.RunCukesTestInMobile">
+        <methods>
+          <include name="feature"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.sph.runners.RunCukesTestInMobile -->
+      <class name="com.sph.runners.RunCukesTestInWeb">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.sph.runners.RunCukesTestInWeb -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

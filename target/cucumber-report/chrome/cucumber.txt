@@ -1,0 +1,10 @@
+Feature: Launch Connection Tester Website
+
+  @testConnection
+  Scenario: Launch Connection Tester Website                [90m# LoginWeb.feature:3[0m
+    [32mGiven [0m[32mI want to launch the Connection Tester website[0m    [90m# StepDefsWeb.i_want_to_launch_connection_tester_website()[0m
+    [32mWhen [0m[32mI want to verify the headline of the page[0m          [90m# StepDefsWeb.i_want_to_verify_the_headline()[0m
+    [32mThen [0m[32mI want to select the production environment[0m        [90m# StepDefsWeb.i_want_to_select_the_production_environment()[0m
+    [32mAnd [0m[32mI want to click on run checker button[0m               [90m# StepDefsWeb.i_want_to_click_runchecker_button()[0m
+    [32mAnd [0m[32mI want to read the summary after the run[0m            [90m# StepDefsWeb.i_want_to_read_the_summary_after_the_run()[0m
+    [32mAnd [0m[32mI want to send email if there is any server failure[0m [90m# StepDefsWeb.i_want_to_send_email_if_there_is_any_server_failure()[0m

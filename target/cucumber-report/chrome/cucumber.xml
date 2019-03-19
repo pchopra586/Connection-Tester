@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.174694">
+<testcase classname="Launch Connection Tester Website" name="Launch Connection Tester Website" time="26.174694">
+<system-out><![CDATA[Given I want to launch the Connection Tester website........................passed
+When I want to verify the headline of the page..............................passed
+Then I want to select the production environment............................passed
+And I want to click on run checker button...................................passed
+And I want to read the summary after the run................................passed
+And I want to send email if there is any server failure.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

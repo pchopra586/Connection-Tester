@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch Connection Tester Website",
+        "description": "",
+        "id": "launch-connection-tester-website;launch-connection-tester-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 847993155,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to launch the Connection Tester website",
+            "match": {
+              "location": "StepDefsWeb.i_want_to_launch_connection_tester_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5043084959,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to verify the headline of the page",
+            "match": {
+              "location": "StepDefsWeb.i_want_to_verify_the_headline()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5136549727,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to select the production environment",
+            "match": {
+              "location": "StepDefsWeb.i_want_to_select_the_production_environment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5064829217,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to click on run checker button",
+            "match": {
+              "location": "StepDefsWeb.i_want_to_click_runchecker_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5077130100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to read the summary after the run",
+            "match": {
+              "location": "StepDefsWeb.i_want_to_read_the_summary_after_the_run()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5005106828,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to send email if there is any server failure",
+            "match": {
+              "location": "StepDefsWeb.i_want_to_send_email_if_there_is_any_server_failure()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@testConnection"
+          }
+        ]
+      }
+    ],
+    "name": "Launch Connection Tester Website",
+    "description": "",
+    "id": "launch-connection-tester-website",
+    "keyword": "Feature",
+    "uri": "LoginWeb.feature"
+  }
+]
